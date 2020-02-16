@@ -1,22 +1,41 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="utf-8">
-    <title>Vue.js Ajax</title>
-</head>
-<body>
-<div id="app">
-    <price></price>
-</div>
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
-<script src="src.js"></script>
-<script>
-new Vue({
-    el: '#app'
-});
-</script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    <Vue class="j"></Vue>s Ajax
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.min.css">
+</head>
+
+<body>
+  <div id="app">
+    <div class="container">
+      <div class="row">
+        <div class="column column-50 column-offset-25">
+          <h1>The Items</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-50 column-offset-25">
+          <price></price>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+  <script src="src.js"></script>
+  <script>
+    new Vue({
+      el: '#app'
+    });
+  </script>
 </body>
+
 </html>
